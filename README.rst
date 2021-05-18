@@ -26,7 +26,24 @@ A Python package to help keep your Spotify playlist metadata up-to-date when it 
 Features
 --------
 
-* TODO
+* Store your playlist ids, names and descriptions in a JSON file. See *playlistMetadataExample.json* for an example.
+* The program will run continuously, checking your playlist names and descriptions against the metadata. If any discrepancies are found, both the name and description will be updated.
+* If an image folder is specified and contains a JPEG cover image for a playlist, it will get uploaded too (max 256KB size). Image files must be named *<playlistId>.jpg*, replacing *<playlistId>* with your playlist's 22-character id.
+* Checks are performed every 60 seconds by default. This is configurable, but don't set it too low or you'll run into API rate limits.
+
+Prerequisites
+-------------
+
+* You'll need to `create your own app`_ on the 'Spotify for Developers' portal. Once created, you'll need your app's 'Client ID' and 'Client Secret' in order to run the program. You will also need to set your app's 'Redirect URI' to 'http://localhost:8080'. This is the default used by *spotiminder*. If you would like to set this to something else, feel free to do so. You'll just need to specify the new URI at the command-line when you run the program.
+* Python v3. You can `get it here`_.
+
+.. _`create your own app`: https://developer.spotify.com/dashboard/applications
+.. _`get it here`: https://www.python.org/downloads/
+
+Installation
+------------
+
+
 
 Credits
 -------
