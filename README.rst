@@ -20,7 +20,7 @@ A Python package to help keep your Spotify playlist metadata up-to-date when it 
 
 
 * Free software: MIT license
-* Documentation: https://spotiminder.readthedocs.io. (not yet)
+* Documentation: https://spotiminder.readthedocs.io.
 
 
 Features
