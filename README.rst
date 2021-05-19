@@ -63,7 +63,11 @@ Installation
 Usage
 -----
 
-``spotiminder -h`` is your friend.
+``spotiminder -h`` is your friend. The simplest usage is:
+
+.. code-block::
+
+  spotiminder <client id> <client secret> <path to json metadata>
 
 Credits
 -------
