@@ -52,7 +52,18 @@ Installation
 
       pip install virtualenv
       virtualenv venv
+
+   On Mac/Linux:
+
+   .. code-block::
+
       source venv/bin/activate
+
+   On Windows:
+
+   .. code-block::
+
+      venv\Scripts\activate.bat
 
 #. Install *spotiminder*:
 
