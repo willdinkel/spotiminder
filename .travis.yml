@@ -6,5 +6,7 @@ python:
 install: pip install -U tox-travis
 script: tox
 deploy:
+  provider: pypi
+  username: "__token__"
   password:
     secure: Dz6bbW1pu41J2L6y/fRehQlCzeg5DC2NNu6ovqoOYLJHtIW36gWTplI5w3WJtpJfapm9RB9EvRt/UoXV8RzDJcnJ5J+9Rr/P8O0nZ5jUYRehoF65QxfGO5ZXNQRIRm/1CC2QY/Q6E2LKBYMzT5EnYegKM+fWaXl+P+hHBDyRElTMx9elV9Q9EcT9593DheYKj2dwPnt0eO/OYWKSn4CENnNQNs6yEXgfXLQsdWImDZW9G4ZFpdF27diI2AVMI8y6M2hnaQgz7wDQU4fpObep8rBMzkr092Hp/PiGtk6yfQN5J1HbVyng1286xddzZROm8SoG/42HdvartYPiUu1lZboh+87uJBXu+1TUW8D048pmo5mv3JWlgN4LYJ7x5RyNesFOATeS8eKU6nRbu5Gc7kc4aj6Y/y3lL6L5I/McgK3T1giQgqyIos/g5Hj36wWk4XHof48o7X9Z3uScT/RpL0dZ0CleKstBRC9IhWve/Lgw0Z0wnHIicugVVfFUxhW/vsNA9Oji+l3RW8elfOYpDGKI4duTFpC3W1y8Bh9jrXJ8bGZgzDXbhjH56wTfi2+4RqwpUwtiUN5g3ZPnqX+R01nN+DJhRj3gKhYtA9q9UqUQtQzPBApqxHYnI83xGG4HVyJtgtNksKMS4N/2MtC0zQy8e6+SToDd07fdDFFGB8M=
